@@ -1,0 +1,88 @@
+.root_contain {
+    display: flex;
+}
+
+.sideBar {
+    top: 95px;
+    left: -1px;
+    width: 260px;
+    height: 994px;
+    background: #1E1E1E 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.nav-item {
+    width: inherit;
+    height: 30px;
+    text-align: left;
+    font: Regular 16px/21px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+
+.nav-item-active {
+    width: inherit;
+    height: 30px;
+    text-align: left;
+    font: Regular 16px/21px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: transparent linear-gradient(109deg, #FF6337 0%, #A82E0B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.circle {
+    border-color: #F86137;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-bg {
+    height: 92px;
+    width: 92px;
+    background: transparent url('./woman-sitting-on-chair-holding-blue-mug-1580457.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.custom-button {
+    margin-top: 50px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background: #1E1E1E 0% 0% no-repeat padding-box;
+    border: 2px solid #F86137;
+    border-radius: 3px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
